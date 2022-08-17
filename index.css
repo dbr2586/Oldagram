@@ -12,6 +12,7 @@ body {
 
 header, main {
     background: white;
+    animation: fadeInEffect 3s linear;
 }
 
 header {

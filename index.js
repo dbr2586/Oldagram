@@ -244,41 +244,6 @@ document.addEventListener("click", function(event){
 
 
 
-
-    
-    
-//         const commentIcon = document.getElementById("comment-icon") 
-//         const commentButton = document.getElementById("comment-button") 
-//         const commentBox = document.getElementById("comment-box") 
-//         const bottom = document.getElementById("bottom-info")
-//         const userComment = document.getElementById("comment-input")
-//         let commentIconClicked = false
-            
-//     commentButton.addEventListener("click", function(){
-//     if (userComment.value.trim() === ""){
-//         userComment.value = ""
-//         userComment.setAttribute("placeholder", "No blank comments, buddy!")  
-//     } else {
-//         bottom.innerHTML += `<p class="comment"><span class="user-name">FakePer3000</span> ${userComment.value}</p>`
-//         userComment.value = ""
-//         userComment.setAttribute("placeholder", "Add a comment as FakePer3000") }
-// })
-            
-//             }
-
-
-
-
-// commentIcon.addEventListener("click", function(){
-//     if (commentIconClicked === false){
-//         commentBox.style.display = "flex"
-//         commentIconClicked = true}
-// })
-
-        
-       
-    
-  
       
     
 

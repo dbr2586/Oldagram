@@ -84,6 +84,7 @@ line-height: 2px;
 .icon-container {
     width: 104px;
     height: 22px;
+    margin-top: 7px;
     display: flex;
     justify-content: space-around    
 }

@@ -1,0 +1,182 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightgrey;
+   display: flex; 
+   flex-flow: column wrap;
+   align-items: center; 
+}
+
+header, main {
+    background: white;
+}
+
+header {
+    width: 375px;
+    height: 67px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-bottom: 1px solid #C6C6C6   
+}
+
+#logo {
+    width: 117px; 
+    height: 33px; 
+     margin-left: 15px; 
+    
+}
+
+#user-avatar, .other-user-avatar, .comment-avatar {
+    width: 34px;
+    height: 34px; 
+    border-radius: 50px;  
+}
+
+#user-avatar {
+     margin-right: 15px; 
+}
+
+.other-user-avatar { 
+    margin-left: 10px; 
+    margin-right: 7px; 
+}
+
+.top-info{
+    width: 375px;
+    height: 55px; 
+    display: flex; 
+    
+    align-items: center; 
+}
+
+.top-info-text-element {
+    width: 200px; 
+    height: 38px; 
+}
+
+
+.other-user-name {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 13px; 
+line-height: 2px;} 
+
+.other-user-location {
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 2px;
+
+}
+
+.post-image {
+    width: 375px; 
+    height: 375px; 
+}
+
+.icon-container {
+    width: 104px;
+    height: 22px;
+    display: flex;
+    justify-content: space-around    
+}
+
+.icon {
+    height: 22px;
+    width: 22px; 
+}
+
+.likes {
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 16px;
+margin-left: 10px;
+}
+
+.comment {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-top: 0;
+    width: 340px;; 
+}
+
+.user-name {
+    font-weight: 700;
+}
+
+.comment-box {
+    width: 375px; 
+    display: none; 
+    flex-direction: row; 
+    margin-bottom: 10px; 
+}
+
+.input-container {
+    width: 300px; 
+    border: 1px solid gray;
+    border-radius: 10px; 
+    display: flex; 
+    justify-content: space-between
+}
+
+input {
+    margin-left: 10px;
+    border: none; 
+    width: 100%; 
+    
+}
+
+button {
+    border: none;
+    background: none;
+    color: lightgray  
+}
+
+button:hover {
+    color: gray  
+}
+
+button:active {
+    color: black  
+}
+
+.comment-avatar {
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.icon:hover {
+    opacity: .5
+}
+
+.overall-post-container{
+    margin-bottom: 30px; 
+}
+
+.post-image:hover{
+    opacity: .9
+}
+
+.post-image:active{
+    opacity: .7
+}
+
+
+
+@keyframes fadeInEffect {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
